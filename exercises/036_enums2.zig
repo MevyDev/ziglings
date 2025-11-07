@@ -52,8 +52,10 @@ pub fn main() void {
     std.debug.print(
         \\<p>
         \\  <span style="color: #{x:0>6}">Red</span>
-        \\  <span style="color: #{x:<6}">Green</span>
-        \\  <span style="color: #{x:0>}">Blue</span>
+        \\  <span style="color: #{x:0>6}">Green</span>
+        \\  <span style="color: #{x:0>6}">Blue</span>
+//        \\  <span style="color: #{x:<6}">Green</span>
+//        \\  <span style="color: #{x:0>}">Blue</span>
         \\</p>
         \\
     , .{
