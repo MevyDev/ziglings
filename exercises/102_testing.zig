@@ -94,3 +94,8 @@ test "divide" {
     // denominator. But which error needs to be tested?
     try testing.expectError(error.DivisionByZero, divide(15, 0));
 }
+
+test "math" {
+    try testing.expect(2 != 3);
+    try testing.expect(2 == 2);
+}
